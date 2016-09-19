@@ -4,4 +4,4 @@
  * The main content template
  */
 ?>
-<p>This is some content.</p>
+<p>Console Version: <?php echo file_get_contents('../version.txt'); ?></p>
