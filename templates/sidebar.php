@@ -20,8 +20,8 @@
                     </span>
                 </a>
                 <ul class="treeview-menu">
-                    <li><a href="site-add.php">Add New Site</a></li>
-                    <?php $sites = json_decode(file_get_contents('/vagrant/pressboxx.json'), true)['sites']; array_walk(array_keys($sites), function($site_name){ printf('<li><a href="site.php?site_name=%1$s" data-title="Site Administration">%1$s</a></li>', $site_name);});?>
+                    <li><a href="site-add.php" data-title="Add New Site">Add New Site</a></li>
+                    <?php $sites = json_decode(file_get_contents('/vagrant/pressboxx.json'), true)['sites']; array_walk(array_keys($sites), function($site_name){ printf('<li><a href="site.php?site_name=%1$s" data-title="Site Administration: %1$s">%1$s</a></li>', $site_name);});?>
                 </ul>
             </li>
         </ul>
