@@ -12,7 +12,7 @@
             <li><a href="main-content.php" data-title="Admin Console"><i class="fa fa-link"></i> <span>Home</span></a></li>
             <li><a href="database.php" data-title="Database"><i class="fa fa-link"></i> <span>Database</span></a></li>
             <li><a href="object-cache.php" data-title="Object Cache"><i class="fa fa-link"></i> <span>Object Caches</span></a></li>
-            <li><a href="processvm.php" data-title="Process VM"><i class="fa fa-link"></i> <span>Process VM</span></a></li>
+<!--            <li><a href="processvm.php" data-title="Process VM"><i class="fa fa-link"></i> <span>Process VM</span></a></li>-->
             <li class="treeview">
                 <a href="#"><i class="fa fa-link"></i> <span>Sites</span>
                     <span class="pull-right-container">
