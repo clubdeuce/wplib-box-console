@@ -4,7 +4,7 @@
 * The Site panel template
 */
 $site_id = filter_input(INPUT_GET, 'site_name', FILTER_SANITIZE_STRING);
-
+?>
 <div class="row">
 	<div class="col-md-12 col-sm-12 col-xs-12">
 		<div class="info-box">
