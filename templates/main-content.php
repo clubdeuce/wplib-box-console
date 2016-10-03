@@ -5,3 +5,4 @@
  */
 ?>
 <p>Console Version: <?php echo file_get_contents('../version.txt'); ?></p>
+<p>PressBoxx Version: <?php echo file_get_contents('/boxx/version' ); ?></p>
